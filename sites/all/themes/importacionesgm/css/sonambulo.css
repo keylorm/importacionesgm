@@ -14,13 +14,13 @@ body {
   
 }
 .header .grid,
-/*.main-content,*/
+.main-content,
 .above-content,
 .grid-1000,
 .below-content
 /*.footer */{
-  width: 62.5em;	
-  max-width: 62.500em;
+  width: 1000px;	
+  max-width: 1000px;
   float: none;
   margin: 0 auto !important;
   overflow: hidden;
@@ -44,9 +44,3 @@ body {
 .main .title {
   width: 1000px;
 }
-
-/* Ajustar estilo del layout "cuatro filas" */
-.panels-flexible-cuatro_filas .panels-flexible-row .inside .panels-flexible-region {
-  float: none;
-}
-
