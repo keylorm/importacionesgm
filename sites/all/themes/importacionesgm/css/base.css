@@ -9,10 +9,8 @@
           box-sizing: border-box;
 }
 body {
-  background: #fff;
+	padding: 0px; margin: 0px;
   color: #333;
-  font: 1em/1.75em 'Helvetica Neue', Arial, sans-serif;
-  padding: 1em;
 }
 
 /*
@@ -20,15 +18,12 @@ body {
 --------------------------------------------- */
 a:link,
 a:visited {
-  border-bottom: 1px solid rgb(200,200,200);
   text-decoration: none;
   color: rgb(80,80,80);
   outline: none;
 }
 
 a:hover {
-  border-bottom: 1px solid rgb(0,0,0);
-  background: rgba(0,0,0,.05);
   color: rgb(0,0,0);
 }
 

@@ -1,0 +1,435 @@
+/* CSS Document */
+@media only screen and (max-width : 1000px) {
+
+.carousel-frame{
+	width: 640px !important;
+	margin: 0 auto;
+}
+
+#mapa iframe{
+	width: 100% !important;
+}
+.info-contacto-row{
+	background: none;
+	border-bottom: 1px solid #B3B3B5;
+    height: auto;
+    clear: both;
+    overflow: hidden;	
+}
+.info-contacto-row .info-contacto-detalle{
+	display: table-cell;
+	vertical-align: middle;
+	line-height: 40px;
+}
+.info-contacto-row .info-contacto-label{
+	line-height: 40px;
+}
+.node-type-articulos-y-recomendaciones #comments .comment-form .form-type-textfield input,
+.node-type-articulos-y-recomendaciones #comments .comment-form .field-type-email input,
+.node-type-articulos-y-recomendaciones #comments .comment-form .field-type-text-long textarea{
+	width: 50%;
+	max-width: 100%;
+	min-width: 0%;
+}
+
+
+.flexslider-banner-paquete-terrestre{
+	width: 100%;
+	height: auto;
+	padding-bottom: 50px;
+}
+
+.flexslider-banner-paquete-terrestre .amazingslider-bullet-wrapper-0 > div{
+	background-image: url('../js/bullet.png') !important;
+}
+
+.flexslider-blog{
+	height: auto;
+}
+.flexslider-blog ul.slides li{
+	line-height: 0px !important;
+}
+.flexslider-blog ul.flex-direction-nav li a{
+	width: 40px;
+	height: 40px;
+	background-size: 40px;
+}
+.view-articulos-y-recomendaciones .views-row, .view-paquetes-home .node.node-articulos-y-recomendaciones{
+	margin: 0 auto !important;
+	margin-bottom: 20px !important;
+	clear: both;
+	float: none;
+}
+
+
+
+.panels-flexible-region.panels-flexible-region-tres_filas_dos_columnas_encabezado_cintillo_final-center.panels-flexible-region-first{
+	width: 59%;
+}
+.panels-flexible-region-tres_filas_dos_columnas_encabezado_cintillo_final-encabezado___sidebar{
+	width: 310px;
+}
+
+.page-lugares-para-viajar #gallery-list{
+	width: 660px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-top: 20px;
+}
+.page-lugares-para-viajar #gallery-list .node{
+	width: 310px;
+}	
+.page-lugares-para-viajar #gallery-list .node .group-titulo-detalle .field-name-body p{
+	line-height: 15px;
+
+}
+.page-lugares-para-viajar #gallery-list .node:nth-child(3n){
+	margin-right: 30px;
+}
+.page-lugares-para-viajar #gallery-list .node:nth-child(2n){
+	margin-right: 0px;
+}
+
+.pane-views-paquetes-block-paq-promocion{
+	display: none;
+}
+.selecionador-destino .linea{
+	display: none;
+}	
+#gallery-list .node, .view-paquetes-home .node.node-destino/*,
+.node.node-paquete-compuesto.view-mode-paquete_promocion*/{
+	width: 100%;
+}
+.node.node-paquete-compuesto.view-mode-paquete_promocion{
+	width: 300px;
+	/*margin: 0;*/
+	margin-bottom: 15px;
+}
+.main .panel-flexible-inside{
+	padding: 0px 10px;
+}
+.panels-flexible-region-tres_filas_dos_columnas_encabezado-encabezado___sidebar{
+	width: 40%;
+}
+.panels-flexible-region-tres_filas_dos_columnas_encabezado-center{
+	width: 60%;
+}
+.pane-views-paquetes-block-paq-econ{
+	width: 330px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.view-id-articulos_y_recomendaciones.view-display-id-block_art_recom .jcarousel-skin-default .jcarousel-item,
+.view-display-id-block_paq_promocion .jcarousel-skin-default .jcarousel-item{
+	width: 220px !important;
+	margin: 0 5px;
+}
+.jcarousel-clip-horizontal{
+	width: 690px !important;
+	margin: 0 auto !important;
+}
+.page-paquetes-de-viaje-economicos h2.pane-title{
+	display: none;
+}
+.main .title{
+	width: 100%;
+}
+.cintillo-contacto{
+	height: auto;
+}
+#cintillo-lugares-para-viajar .titulo-descripcion h2{
+	font-size: 19px;
+}
+
+.view-display-id-block_listado_paquetes_economicos .view-content{
+	width: 655px;
+	margin: 0 auto;
+}
+
+.view-display-id-block_listado_paquetes_economicos .views-row:nth-child(3n) .node.node-paquete-compuesto.view-mode-paquete_promocion{
+	margin-right: 35px;
+}
+.view-display-id-block_listado_paquetes_economicos .views-row:nth-child(2n) .node.node-paquete-compuesto.view-mode-paquete_promocion{
+	margin-right: 0px;
+}
+
+
+	.header .grid, .above-content, .grid-1000, .below-content{
+		width: 100%;
+	}
+	.utility-bar{
+		display: none;
+	}
+	.site-logo-slogan{
+		width: 100%;
+	}
+
+	#block-menu-block-1{
+		height: auto;
+	}
+	.site-logo-slogan{
+		height: 84px;
+	}
+
+	.flexslider ul.slides li.primero .flex-caption {
+	    position: absolute;
+	    top: 188px;
+	    right: 0;
+	    left: 0;
+	    margin: auto;
+	}
+
+	.footer_menu ul.menu li a{
+		line-height: 15px;
+	}
+
+	.footer_menu ul.menu{
+		padding: 12px 0;
+	}
+
+	.cintillo-contacto .titulo-descripcion p{
+		display: none;
+	}
+
+	.cintillo-contacto .llamado-accion{
+		padding-right: 15px;
+	}
+
+	.cintillo-contacto .titulo-descripcion{
+		padding-left: 15px;
+	}
+
+		.footer_menu{
+		height: auto;
+	}
+
+	.footer #logo-footer{
+		display: none;
+	}
+
+	.footer #block-block-1--2{
+		width: 100%;
+		padding: 0 2%;
+
+	}
+
+.footer #block-block-1--2 .content > div.redes-sociales{
+		float: right;
+	    width: 32px;
+	    height: auto !important;
+	    padding: 0;
+	}
+
+	.view-content.masonry-processed{
+		margin: 0 auto;
+	}
+
+
+
+}
+
+@media only screen and (max-width : 800px) {
+
+.panels-flexible-tres_filas_dos_columnas_encabezado_cintillo_final .panels-flexible-region-inside{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.label-compartir-pane{
+	width: 257px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.boton-reservar-linea-deta-paquete a{
+	text-align: center;
+	font-size: 20px;
+}
+.precio-detalle-paquete{
+	text-align: center;
+	border-top: 1px solid #F2B01E;
+	padding: 10px 0px;
+}
+.lo-que-incluye-detalle-paquete{
+	display: none;
+}
+.amazingslider-nav-0{
+	margin-top: 13px !important;
+}
+
+
+
+.busqueda-paquetes .block-title{
+	background: none;
+}
+.busqueda-paquetes .block-title h2{
+	font-size: 20px;
+}
+.view-otros-paquetes{
+	width: 300px;
+	margin: 0 auto;
+}
+
+
+.node-type-articulos-y-recomendaciones #comments .comment-form .form-type-textfield label,
+.node-type-articulos-y-recomendaciones #comments .comment-form .field-type-email label,
+.node-type-articulos-y-recomendaciones #comments .comment-form .field-type-text-long label{
+	width: 25%;
+}
+.node-type-articulos-y-recomendaciones #comments .comment-form .form-type-textfield input,
+.node-type-articulos-y-recomendaciones #comments .comment-form .field-type-email input,
+.node-type-articulos-y-recomendaciones #comments .comment-form .field-type-text-long textarea{
+	width: 70%;
+}
+
+#cintillo-paquetes{
+	padding-bottom: 15px;
+	overflow: hidden;
+}
+.porque-dandeleon{
+	margin: 0 auto;
+}
+.panels-flexible-region.panels-flexible-region-tres_filas_dos_columnas_encabezado_cintillo_final-center.panels-flexible-region-first{
+	width: 100%;
+}
+.panels-flexible-region-tres_filas_dos_columnas_encabezado_cintillo_final-encabezado___sidebar{
+	width: 100%;
+}
+
+.page-lugares-para-viajar #gallery-list .node{
+	margin-right: 10px;
+}
+
+.selecionador-destino{
+	margin-top: 20px;
+	width: 300px;
+	margin: 0 auto;
+}
+.selecionador-destino select#paises{
+	width: 100%;
+}
+
+.paquetes-oportunidad,
+.paquetes-a-la-medida,
+.precios-accesibles{
+	width: 100%;
+	margin: 0 auto;
+	padding: 10px 20px;
+    /*padding-left: 0px;*/
+    background-size: 52px;
+    background-position: 4% 5%;
+    background-color: #F0F0F1;
+}
+.paquetes-oportunidad h3,
+.paquetes-a-la-medida h3,
+.precios-accesibles h3{
+	padding-left: 70px;
+	line-height: 50px;
+}
+.paquetes-oportunidad .descripcion,
+.paquetes-a-la-medida .descripcion,
+.precios-accesibles .descripcion{
+	line-height: 16px;
+}
+.paquetes-oportunidad{
+	border-left: 4px solid #9DC53B;
+}
+.paquetes-a-la-medida{
+	border-left: 4px solid #6D3F95;
+}
+.precios-accesibles{
+	border-left: 4px solid #11ADE4;
+}
+	
+#block-easy-breadcrumb-easy-breadcrumb{
+	display: none;
+}
+.view-tipos-de-paquetes .views-row a{
+	font-size: 15px;
+	line-height: 16px;
+}
+.view-id-articulos_y_recomendaciones.view-display-id-block_art_recom .jcarousel-skin-default .jcarousel-item,
+.view-display-id-block_paq_promocion .jcarousel-skin-default .jcarousel-item {
+    width: 200px !important;
+    margin: 0 2px;
+}
+.jcarousel-clip-horizontal {
+    width: 612px !important;
+}
+.cintillo-contacto .titulo-descripcion{
+	width: 100%;
+	text-align: center;
+}
+.cintillo-contacto .llamado-accion{
+	width: 100%;
+}
+.cintillo-contacto .llamado-accion a{
+	float: none;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+
+	.site-logo-slogan .slogan{
+		width: 395px;
+	    font-size: 16px;
+	}
+
+	.flexslider ul.slides li.primero .flex-caption {
+	    width: 100%;
+	    bottom: 92px;
+	    top: auto;
+	}
+
+	.encabezado-busqueda h2 {
+	    width: 290px;
+	    margin: 0 auto;
+	    float: none;
+	    letter-spacing: -1px;
+	    font-size: 18px;
+	    padding: 18px 0 10px;
+        line-height: 11px;
+	}
+
+	.encabezado-busqueda{
+		background-image: url('../images/fondo-formulario-busqueda.png');
+		height: 62px;
+	}
+
+
+	form.webform-client-form.webform-client-form-63{
+		padding: 0;
+	}
+
+	form.webform-client-form.webform-client-form-63{
+		background-image: none;
+	}
+
+	form.webform-client-form-63 .form-item {
+	    margin: 0px auto;
+	    width: 45%;
+	    border: none;
+	    float: none;
+	 
+	}
+
+	form.webform-client-form-63 .form-actions{
+		width: 45%;
+		float: none;
+		margin: 0px auto;
+		text-align: right;
+	}
+
+
+	form.webform-client-form-63 .form-item.webform-component--cuando-queres-viajar{
+		margin-right: auto;
+		margin-left: auto;
+		width: 45%;
+	}
+	
+
+
+	
+
+}

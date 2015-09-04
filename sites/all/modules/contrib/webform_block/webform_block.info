@@ -3,9 +3,9 @@ dascription = Minimalistic module that provides a block for the currently viewed
 core = 7.x
 project = webform_block
 package = Webform
-; Information added by Drupal.org packaging script on 2015-03-25
-version = "7.x-1.1"
+; Information added by Drupal.org packaging script on 2015-05-19
+version = "7.x-1.2"
 core = "7.x"
 project = "webform_block"
-datestamp = "1427269140"
+datestamp = "1432035162"
 

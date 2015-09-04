@@ -1,0 +1,24 @@
+/* CSS Document */
+@media only screen and (max-width: 1280px){
+	#banner .flexslider{
+		width: 100%;
+	}
+
+	#banner .flexslider img{
+		height: 100%;
+		max-width: none;
+	}
+	#banner .flexslider ul.flex-direction-nav{
+		width: 100%;
+	}
+
+	#banner .flexslider ul.flex-direction-nav li.flex-nav-prev {
+    	left: 2%;
+	}
+
+	#banner .flexslider ul.flex-direction-nav li.flex-nav-next {
+	    right: 2%;
+	}
+
+
+}

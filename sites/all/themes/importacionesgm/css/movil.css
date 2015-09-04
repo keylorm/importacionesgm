@@ -1,0 +1,558 @@
+/* CSS Document */
+@media only screen and (max-width : 640px) {
+
+
+#enlaces-paquete{
+	text-align: center;
+}
+#enlaces-paquete > div{
+	width: 48%;
+	display: inline-block; float: none;
+}
+#enlaces-paquete > div > a{
+	width: 100%;
+	margin: 0px;
+}
+.next, .prev{
+	display: none;
+}
+.carousel-pagination{
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+.carousel-pagination li{
+	display: inline-block;
+	background-color: #B3B3B3;
+	width: 12px; height: 12px;
+	margin-right: 10px;
+	border-radius: 55%;
+	cursor: pointer;
+}
+.carousel-pagination li.carousel-pagination-active{
+	background-color: #F2B01E;
+}
+
+
+.carousel-frame ul li{
+	width: 300px !important;
+}
+.busqueda-paquetes .block-title{
+	width: 100%;
+}
+.busqueda-paquetes .block-title h2{
+	width: 100%;
+    font-size: 15px;
+    line-height: 16px;
+	padding-right: 0px;
+	text-align: center;
+}
+.carousel-frame{
+	width: 300px !important;
+	margin: 0 auto;
+}
+
+.node-type-articulos-y-recomendaciones #comments .comment .group-comment-wrapper .field-name-comment-body,
+.node-type-articulos-y-recomendaciones #comments .comment .group-comment-wrapper .field-name-comment-body p{
+	line-height: 17px;
+}
+
+.node-type-articulos-y-recomendaciones #comments .comment-form .form-type-textfield,
+.node-type-articulos-y-recomendaciones #comments .comment-form .field-type-email{
+	background: none;
+}
+/*.node-type-articulos-y-recomendaciones #comments .comment-form .field-type-text-long{
+	background: none;
+	max-width: 100%;
+	min-width: 0%;	
+}*/
+
+.node-type-articulos-y-recomendaciones #comments .comment-form .form-type-textfield label,
+.node-type-articulos-y-recomendaciones #comments .comment-form .field-type-email label,
+.node-type-articulos-y-recomendaciones #comments .comment-form .field-type-text-long label{
+	width: 100%;
+	background: none;
+	margin: 10px 0px;
+}
+
+
+.node-type-articulos-y-recomendaciones #comments .comment-form .form-type-textfield input,
+.node-type-articulos-y-recomendaciones #comments .comment-form .field-type-email input,
+.node-type-articulos-y-recomendaciones #comments .comment-form .field-type-text-long textarea{
+	width: 100%;
+	border-bottom: 2px solid #0099D6;
+}
+
+
+.node-type-articulos-y-recomendaciones #comments .comment-form input.form-submit{
+	width: 100%;
+	margin-top: 20px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.flexslider-blog .flex-caption{
+	position: static;
+}
+
+
+.not-front .header{
+	min-height: auto;
+	background: none;
+}
+
+.selecionador-destino select#paises{
+	width: 300px;
+	margin: 0 auto;
+	float: none;
+}
+.page-lugares-para-viajar #gallery-list{
+	width: 300px;
+}
+.page-lugares-para-viajar .pane-content p{
+	padding: 0px;
+	line-height: 14px;
+}
+.page-lugares-para-viajar #gallery-list .node{
+	width: 100%;
+	height: auto;
+	margin-right: 0px;
+}	
+.page-lugares-para-viajar #gallery-list .node img{
+	width: 100%;
+}
+#gallery-list .node .group-imagen-contenedor .field-name-roll-over-destino .roll-over a{
+	height: 100%;
+}
+.page-lugares-para-viajar #gallery-list .node .group-titulo-detalle .field-name-title h2{
+	line-height: 15px;
+}	
+
+
+.page-porque-dandeleon #banner{
+	display: none;
+}
+body.page-porque-dandeleon .header{
+	height: auto;
+	min-height: 150px;
+}
+.paquetes-oportunidad,
+.paquetes-a-la-medida,
+.precios-accesibles{
+	width: 95%;
+}
+.mision-vision-bloque{
+	display: none;
+}
+.pane-content li, .pane-content p{
+	line-height: 17px;
+}
+.pane-content p{
+	padding: 0px 10px;
+}
+
+
+.pane-views-paquetes-block-2 .view-otros-paquetes{
+	/*display: none;*/
+}
+.main .panel-flexible-inside{
+	padding: 0px 10px;
+}
+.encabezado-general{
+	border-bottom: 1px solid #CCCCCC;
+	/*padding-bottom: 15px;*/
+	overflow: hidden;
+	clear: both;
+}
+.encabezado-general h2{
+	display: none;
+
+}
+.encabezado-general h1,
+h1#page-title.title{
+
+	color: #B80F1B;
+
+	width: 100%;
+	line-height: 24px;
+	height: auto; /*148*/
+	vertical-align: middle;
+	font-size: 24px;
+	display: table-cell;
+
+	float: left;
+	clear: both;
+	overflow: hidden;
+	margin-top: 20px;
+	padding-left: 5px !important;
+	padding-right: 50px;
+	background-size: 20px;
+	background-repeat: no-repeat;
+	background-position: 95% 50% !important;
+	background-image: url('../images/arrow_btn_red_back.png');
+}
+h1#page-title.title{
+	border-bottom: 1px solid #CCCCCC;
+}
+.encabezado-general h1{
+	min-height: 50px;	
+}
+    
+
+.vocabulary-tipo_de_paquete .encabezado-general h2,
+.vocabulary-tipo_de_paquete .encabezado-general h1{
+	background-size: 50px;
+}
+
+.node-type-paquete-compuesto .encabezado-general h2,
+.node-type-paquete-compuesto .encabezado-general h1{
+	min-height: 50px;
+	background-size: 50px;
+}
+
+.encabezado-general h2, .encabezado-general h1{
+	line-height: 37px;
+}
+.sidebar .panels-flexible-region-inside-last{
+	padding-left: 0px;
+}
+.panels-flexible-region-tres_filas_dos_columnas_encabezado-encabezado___sidebar{
+	width: 100%;
+}
+.panels-flexible-region-tres_filas_dos_columnas_encabezado-center{
+	width: 100%;
+}
+
+.view-display-id-block_listado_paquetes_economicos .views-row:nth-child(3n) .node.node-paquete-compuesto.view-mode-paquete_promocion{
+	margin-right: 0px;
+}
+
+#gallery-list .node .group-imagen-contenedor .field-name-roll-over-destino .roll-over a,
+.view-paquetes-home .node.node-destino .group-imagen-contenedor .field-name-roll-over-destino .roll-over a,
+.node.node-paquete-compuesto.view-mode-paquete_promocion .group-imagen-contenedor .field-name-roll-over-paquete .roll-over a{
+	width: 100%;
+}
+#gallery-list .node, .view-paquetes-home .node.node-destino,
+.node.node-paquete-compuesto.view-mode-paquete_promocion{
+	width: 100%;
+}
+#gallery-list .node, .view-paquetes-home .node.node-destino img,
+.node.node-paquete-compuesto.view-mode-paquete_promocion img{
+	width: 100%;
+}
+#cintillo-lugares-para-viajar .titulo-descripcion h2{
+	font-size: 13px;
+}
+.cintillo-contacto .llamado-accion a{
+	text-align: center;
+}	
+.view-display-id-block_listado_paquetes_economicos .view-content{
+	width: 300px;
+}
+body:not(.page-articulos-y-recomendaciones) .view-articulos-y-recomendaciones{
+	display: none;
+}
+
+	.site-logo-slogan .slogan{
+		display: none;
+
+	}
+
+	.tinynav{
+		width: 104%;
+	    margin: 0 auto;
+	    height: 34px;
+	    background-color: #4D4D4D;
+	    background-image: url(../images/bg-select-menu-resp.png);
+	    background-position: 96% center;
+	    background-repeat: no-repeat;
+	    font-family: 'Roboto', sans-serif;
+	    font-weight: normal;
+	    color: #FFFFFF;
+	    text-transform: uppercase;
+	    font-size: 12px;
+	    border: none;
+	    padding: 0 10px;
+	}
+
+	.tinynav-wrapper{
+		width: 96%;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+
+	#block-menu-block-1{
+		
+		padding: 10px 0;
+	}
+
+	.flexslider ul.slides li.primero .flex-caption {
+	    width: 100%;
+	    bottom: 118px;
+	    top: auto;
+	}
+
+	.cintillo-contacto .titulo-descripcion{
+		width: 96%;
+	    margin: 0 auto;
+	    float: none;
+	    padding-left: 0px;
+	}
+
+
+	.cintillo-contacto .titulo-descripcion h2{
+		font-size: 13px;
+	    text-align: center;
+	    margin-top: 10px;
+	    line-height: 16px;
+	    margin-top: 12px;
+
+	}
+
+	.cintillo-contacto .llamado-accion{
+		width: 96%;
+		float: none;
+		margin: 0 auto;
+		padding-right: 0px;
+	}
+
+	.cintillo-contacto .llamado-accion a{
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 12px;
+		line-height: 22px;
+		height: 24px;
+		width: 145px;
+		padding-left: 4px;
+		margin-top: 10px;
+		background-image: url(../images/cintillo-boton-flecha-movil.png);
+	}
+
+	/*.cintillo-contacto{
+		height: 75px;
+	}*/
+
+	.footer_menu ul.menu li a {
+	    line-height: 18px;
+    	text-transform: none;
+	}
+
+	.footer_menu ul.menu li{
+		display: inline-block;
+	    padding: 0 8px;
+	    margin: 3px 0;
+	    border-right: 1px solid #F2B01E;
+
+	}
+	
+
+	.footer_menu ul.menu {
+	    padding: 12px 10px;
+	    max-width: 460px;
+	    margin: 0 auto;
+	}
+
+	.footer_menu ul.menu li.menu-mlid-816,
+	.footer_menu ul.menu li.menu-mlid-768{
+		border-right: none;
+	}
+
+	.container-correo-tel-dir-info{
+		width: 80%;
+	}
+
+	.footer #block-block-1--2 .content .container-correo-tel-dir-info div.telefonos{
+		margin-left: 0;
+	}
+
+	.footer #block-block-1--2 .content .container-correo-tel-dir-info div.ubicacion{
+		margin-left: 0;
+	}
+
+	.footer #block-block-1--2 .content .container-correo-tel-dir-info div.correo,
+	.footer #block-block-1--2 .content .container-correo-tel-dir-info div.telefonos{
+		border-right: none;
+	}
+
+	.footer #block-block-1--2 .content .container-correo-tel-dir-info div.correo{
+		margin-top: 0;
+	}
+
+	.footer #block-block-1--2 .content .container-correo-tel-dir-info div{
+		height: 15px;
+    	line-height: 15px;
+	}
+
+	.boton-ver-mas-paquetes-movil{
+		max-width: 308px;
+		width: 96%;
+		margin: 0 auto;
+		text-align: center;
+		background-color: #F2B01E;
+		height: 37px;
+		clear: both;
+	}
+
+	.boton-ver-mas-paquetes-movil a{
+		display: block;
+		text-transform: uppercase;
+		color: #fff;
+		font-family: 'Montserrat', sans-serif;
+    	font-weight: normal;
+    	font-size: 16px;
+    	line-height: 37px;
+	}
+
+	.boton-ver-mas-paquetes-movil{
+		
+	}
+	
+}
+
+@media only screen and (max-width : 400px) {
+
+
+.pane-dandeleon-web-service-resources-bloque-precios-paquete .pane-content h2{
+	line-height: 25px;
+}
+.pane-dandeleon-web-service-resources-bloque-precios-paquete .pane-content table thead tr th,
+.pane-dandeleon-web-service-resources-bloque-precios-paquete .pane-content table tbody tr td{
+	border-right: 1px solid #FFF;
+	border-bottom: 1px solid #FFF;
+	font-size: 12px;
+}
+.pane-dandeleon-web-service-resources-bloque-precios-paquete .pane-content table tbody tr td.clase{
+	background: none;
+	background-color: #E6E6E6;
+}
+.pane-dandeleon-web-service-resources-bloque-precios-paquete .pane-content table thead tr th.clase{
+	background: none;
+	background-color: #0079A8;
+}
+
+#enlaces-paquete > div{
+	width: 100%;
+}
+#enlaces-paquete > div > a{
+	margin-left: 0px !important;
+}
+
+form.webform-client-form fieldset .fieldset-wrapper .webform-component-textarea.form-item label{
+	height: auto;
+}
+form.webform-client-form#webform-client-form-29 fieldset .fieldset-wrapper .form-item label{
+	background: none;
+}
+.info-contacto-row .info-contacto-label{
+    height: 30px;
+    line-height: 31px;
+}	
+.info-contacto-row .info-contacto-detalle{
+	width: 100%;
+    line-height: 28px;
+    padding-bottom: 10px;	
+}
+.node-type-articulos-y-recomendaciones #comments .comment .group-comment-wrapper{
+	background-size: 20px;
+	padding-left: 42px;
+}
+.node-type-articulos-y-recomendaciones #comments .comment .group-comment-wrapper .field-name-comment-body,
+.node-type-articulos-y-recomendaciones #comments .comment .group-comment-wrapper .field-name-comment-body p{
+	font-size: 14px;
+
+}
+body.page-articulos-y-recomendaciones .view-articulos-y-recomendaciones .views-row{
+	width: 99%;
+}
+.flexslider-blog .flex-caption{
+	height:  auto;
+	padding-bottom: 15px;
+}	
+
+form.webform-client-form fieldset .fieldset-wrapper .form-item label{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	background: none;
+}
+form.webform-client-form fieldset .fieldset-wrapper .form-item input,
+form.webform-client-form fieldset .fieldset-wrapper .form-item select,
+form.webform-client-form fieldset .fieldset-wrapper .form-item textarea{
+	width: 100%;
+}
+.main form.webform-client-form .form-actions input{
+	width: 100% !important;
+	background-size: 25px;
+	text-align: center;
+	font-size: 25px;
+}
+
+.paquetes-oportunidad h3, .paquetes-a-la-medida h3, .precios-accesibles h3{
+	line-height: 1.6em;
+}
+
+h1#page-title.title,
+.encabezado-general h1{
+	line-height: 21px;
+	font-size: 18px;
+}
+
+
+	.site-logo-slogan{
+		background-image:url(../images/imagen_top_movil.jpg);
+		height: 75px;
+	}
+
+	.site-logo-slogan img{
+		width: 120px;
+		height: 54px;
+		margin-top: 4px;
+	}
+
+	.flexslider ul.slides li.primero .flex-caption {
+	    width: 100%;
+	    bottom: 126px;
+	    top: auto;
+	}
+
+	form.webform-client-form-63 .form-item.webform-component--cuando-queres-viajar,
+	form.webform-client-form-63 .form-item {
+		width: 308px;
+	}
+
+	form.webform-client-form-63 .form-actions{
+		width: 308px;
+
+	}
+
+
+	#banner .flexslider ul.flex-direction-nav li.flex-nav-prev {
+    	display: none;
+	}
+
+	#banner .flexslider ul.flex-direction-nav li.flex-nav-next {
+	    display: none;
+	}
+
+	#banner .flexslider{
+		height: 455px;
+	}
+
+	.footer_menu ul.menu {
+	    padding: 12px 0px;
+	    max-width: 314px;
+	    margin: 0 auto;
+	}
+
+	.footer_menu ul.menu li.menu-mlid-768{
+		border-right: 1px solid #F2B01E;
+	}
+
+	.footer_menu ul.menu li.menu-mlid-846,
+	.footer_menu ul.menu li.menu-mlid-826{
+		border-right: none;
+	}
+
+
+}
