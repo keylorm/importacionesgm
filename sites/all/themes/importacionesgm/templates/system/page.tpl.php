@@ -55,14 +55,24 @@
   <?php print render($page['header']); ?>
 </div>
 </header>
+<div class="menu-slider">
+  <?php if ($page['menu_region']): ?>
+    <div class="menu-region">
+      <div class="grid-1000">
+        <?php print render($page['menu_region']); ?>
+      </div>
+    </div>
+  <?php endif; // end Above Content ?>
+  <?php if ($page['slider_region']): ?>
+    <div class="slider-region">
+      
+        <?php print render($page['slider_region']); ?>
+      
+    </div>
+  <?php endif; // end Above Content ?>
+</div>
 
-<?php if ($page['slider_region']): ?>
-  <div class="slider-region">
-    
-      <?php print render($page['slider_region']); ?>
-    
-  </div>
-<?php endif; // end Above Content ?>
+
 
 <?php if ($page['above_content']): ?>
   <section class="above-content">

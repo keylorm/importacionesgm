@@ -28,6 +28,7 @@ regions[header]             = Header
 regions[help]               = Help
 regions[highlighted]        = Highlighted
 
+regions[menu_region]      = Menu Region
 regions[slider_region]      = Slider Region
 
 regions[above_content]      = Above Content
