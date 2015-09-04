@@ -18,7 +18,7 @@
     <a href="#" id="messages-toggle"><?php print t('Close');?></a>
   </div>
   <?php endif; ?>
-  <div class="grid">
+  <div class="grid-1000">
   <?php if ($page['utility_bar']): ?>
     <div class="utility-bar">
       <?php print render($page['utility_bar']); ?>
@@ -56,9 +56,19 @@
 </div>
 </header>
 
+<?php if ($page['slider_region']): ?>
+  <div class="slider-region">
+    
+      <?php print render($page['slider_region']); ?>
+    
+  </div>
+<?php endif; // end Above Content ?>
+
 <?php if ($page['above_content']): ?>
   <section class="above-content">
-    <?php print render($page['above_content']); ?>
+    <div class="grid-1000">
+      <?php print render($page['above_content']); ?>
+    </div>
   </section>
 <?php endif; // end Above Content ?>
 
@@ -109,12 +119,14 @@
 
 <?php if ($page['below_content']): ?>
   <section class="below-content">
-    <?php print render($page['below_content']); ?>
+    <div class="grid-1000">
+      <?php print render($page['below_content']); ?>
+    </div>
   </section>
 <?php endif; // end Below Content ?>
 
 <footer class="footer" role="contentinfo">
-  <div class="">
+  <div class="grid-1000">
     <?php print render($page['footer']); ?>
   </div>
 </footer>
