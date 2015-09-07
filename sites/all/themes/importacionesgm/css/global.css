@@ -234,6 +234,66 @@
 	transform: scale(0.9);
 }
 
+.view-imagen-top .views-row .views-field-field-imagen-top{
+	text-align: center;
+}
+
+
+.above-content #block-easy-breadcrumb-easy-breadcrumb{
+	padding: 30px 0px;
+}
+.above-content #block-easy-breadcrumb-easy-breadcrumb .easy-breadcrumb .easy-breadcrumb_segment{
+	color: #4D4D4D;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+	padding: 5px 15px;
+	border-radius: 20px;
+}
+.above-content #block-easy-breadcrumb-easy-breadcrumb .easy-breadcrumb span.easy-breadcrumb_segment-separator{
+
+}
+.above-content #block-easy-breadcrumb-easy-breadcrumb .easy-breadcrumb a.easy-breadcrumb_segment{
+	background-color: #DFDFDF;
+
+}
+.above-content #block-easy-breadcrumb-easy-breadcrumb .easy-breadcrumb span.easy-breadcrumb_segment{
+	background-color: #C5C5C5;
+}
+
+
+h1#page-title{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 33px;
+	font-weight: 700;
+	text-transform: uppercase;	
+	color: #BE242A;
+	margin-top: 0px;
+}
+
+h2{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;		
+	color: #414042;
+	border-bottom: 1px solid #BE242A;
+	padding-bottom: 10px;
+
+}
+
+.main p{
+	color: #333333;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-weight: normal;	
+
+}
+
+
+
+
 
 .view-bloques-sidebar .views-row{
 	position: relative;
@@ -242,20 +302,15 @@
 	height: 232px;
 	margin-bottom: 20px;
 }
-.view-bloques-sidebar .views-row{
-
-}
 .view-bloques-sidebar .views-row .bloque-sidebar-home{
 	position: absolute;
-	display: table-row;
-	vertical-align: middle;
+
 	bottom: 0px;
 	width: 100%;
 	height: 100px;
 	background-image: url('../images/bg_black.png');
 	padding: 20px;
 }
-
 .view-bloques-sidebar .views-row .bloque-sidebar-home a{
 	display: block;
 	width: 100%;
@@ -272,16 +327,65 @@
 
 }
 .view-bloques-sidebar .views-row .bloque-sidebar-home a p{
-	display: table-cell;
-	vertical-align: middle;	
 	margin: 0px;
 	line-height: 32px;
 }
 
 
+.view-bloques-sidebar.view-display-id-block_1 .views-row{
+	top: 0px;
+	height: 185px;
+	margin-bottom: 40px;
+}
+.view-bloques-sidebar.view-display-id-block_1 .views-row .bloque-sidebar-interno{
+	position: absolute;
+	top: 0px;
+	padding: 20px;
+	width: 100%;
+}
+.view-bloques-sidebar.view-display-id-block_1 .views-row .bloque-sidebar-interno .bloque-sidebar-link a{
+	display: block;
+	width: 180px;
+	height: 55px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 55px;
+	text-transform: uppercase;
+	color: #FFF;
+	border: 1px solid #FFF;
+	border-radius: 40px;
+	background-image: url('../images/icon_vermas.png');
+	background-repeat: no-repeat;
+	background-position: 92% 50%;
+	background-size: 25px;
+	-webkit-transition: all 500ms ease;
+	transition: all 500ms ease; 
+	margin: 0 auto;
+	margin-top: 15px;
+}
+.view-bloques-sidebar.view-display-id-block_1 .views-row .bloque-sidebar-interno .bloque-sidebar-link a:hover{
+	background-color: #FFF;
+	color: #BA272D;
+	background-position: 110% 50%;
+}
 
+.view-bloques-sidebar.view-display-id-block_1 .views-row .bloque-sidebar-interno .bloque-sidebar-titulo a{
+	display: block;
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 32px;
 
-
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #FFF;
+	text-align: center;
+}
+.view-bloques-sidebar.view-display-id-block_1 .views-row .bloque-sidebar-interno .bloque-sidebar-titulo a p{
+	margin: 0px;
+	line-height: 38px;
+}
 
 
 
@@ -293,16 +397,19 @@
 
 .below-content.cintillo-rojo{
 	width: 100%;
-	height: 170px;
+	min-height: 170px;
 	background-color: #BA272D;
 	margin-top: 50px;
+	display: table;
 }
 
 .below-content.cintillo-rojo .cintillo-izq{
 	width: 80%;
 	padding-right: 90px;
 	padding-top: 40px;
-	float: left;
+	padding-bottom: 40px;
+	display: table-cell;
+	vertical-align: middle;
 }
 .below-content.cintillo-rojo .cintillo-izq .ctitulo1{
 	font-family: 'Open Sans', sans-serif;
@@ -322,8 +429,8 @@
 
 .below-content.cintillo-rojo .cintillo-der{
 	width: 20%;
-	float: left;
-	padding-top: 50px;
+	display: table-cell;
+	vertical-align: middle;
 }
 .below-content.cintillo-rojo .cintillo-der a{
 	display: block;
@@ -338,7 +445,6 @@
 	color: #FFF;
 	border: 1px solid #FFF;
 	border-radius: 40px;
-	float: right;
 	background-image: url('../images/icon_vermas.png');
 	background-repeat: no-repeat;
 	background-position: 92% 50%;
