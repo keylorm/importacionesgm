@@ -128,7 +128,7 @@
 </div>
 
 <?php if ($page['below_content']): ?>
-  <section class="below-content">
+  <section class="below-content cintillo-rojo">
     <div class="grid-1000">
       <?php print render($page['below_content']); ?>
     </div>
