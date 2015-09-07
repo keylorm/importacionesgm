@@ -93,9 +93,14 @@
 
     <a id="main-content"></a>
     <div class="main" role="main">
-      <?php print render($title_prefix); ?>
-      <?php if ($title): ?><h1 class="title" id="page-title"><?php print $title; ?></h1><?php endif; ?>
-      <?php print render($title_suffix); ?>
+      <?php if(drupal_is_front_page()){ ?>
+
+      <?php }else{ ?>
+        <?php print render($title_prefix); ?>
+        <?php if ($title): ?><h1 class="title" id="page-title"><?php print $title; ?></h1><?php endif; ?>
+        <?php print render($title_suffix); ?>
+      <?php }?>
+      
 
       <?php if ($tabs): ?>
         <?php print render($tabs); ?>
