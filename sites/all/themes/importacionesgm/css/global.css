@@ -6,6 +6,7 @@
 
 
 
+/* HEADER */
 .header{
 	height: 115px;
 	background-color: #000000;
@@ -20,7 +21,6 @@
 .header #logo:hover{
 	transform: scale(0.9);
 }
-
 .header #block-block-1{
 	float: right;
 }
@@ -74,8 +74,6 @@
 .menu-slider{
 	position: relative;
 }
-
-
 .menu-slider .menu-region{
 	width: 100%;
 	position: absolute;
@@ -110,7 +108,6 @@
 .menu-slider .menu-region .menu li a:hover{
 	color: #BE242A;
 }
-
 .flexslider{
 	margin: 0px;
 	background: none;
@@ -120,7 +117,6 @@
 	box-shadow: none;
 	margin-bottom: 30px;
 }
-
 .flex-control-nav{
 	width: 100px;
 	height: 33px;
@@ -143,7 +139,6 @@
 .flex-control-paging li a.flex-active{
 	background-color: #BE242A;
 }
-
 .flex-direction-nav{
 	position: absolute;
 	width: 1000px;
@@ -171,8 +166,6 @@
 .flex-direction-nav .flex-next{
 	background-image: url('../images/next_slider.png');
 }
-
-
 .flex-caption{
 	position: absolute;
 	width: 750px;
@@ -190,9 +183,7 @@
 	background-image: url('../images/bg_black.png');
 	padding: 20px 15px;
 	position: relative;
-
 }
-
 .flex-caption .caption .caption-text{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 34px;
@@ -234,6 +225,11 @@
 	transform: scale(0.9);
 }
 
+.view-imagen-top{
+	position: relative;
+	overflow: hidden;
+	clear: both;
+}
 .view-imagen-top .views-row .views-field-field-imagen-top{
 	text-align: center;
 	width: 100%;
@@ -241,7 +237,6 @@
 	float: left;
 	clear: both;
 }
-
 .view-imagen-top .views-row .views-field-field-frase-superior{
 	background-color: #BA272D;
 	min-height: 70px;
@@ -259,7 +254,6 @@
 	text-align: center;
 	padding: 20px 0px;
 }
-
 .view-imagen-top .views-row .views-field-field-frase-superior .field-content p{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 20px;
@@ -269,6 +263,24 @@
 	line-height: 25px;
 	margin: 0px;	
 }
+.view-imagen-top .views-row .views-field-field-imagen-logo{
+	position: absolute;
+
+	width: 1000px;	
+	max-width: 1000px;
+	float: none;
+	margin: 0 auto;
+
+	right: 0px;
+	left: 0px;
+	top: 35%;
+
+	overflow: hidden;
+}
+/****************/
+
+
+/* BREADCRUMB */
 
 .above-content #block-easy-breadcrumb-easy-breadcrumb{
 	padding: 30px 0px;
@@ -287,13 +299,13 @@
 }
 .above-content #block-easy-breadcrumb-easy-breadcrumb .easy-breadcrumb a.easy-breadcrumb_segment{
 	background-color: #DFDFDF;
-
 }
 .above-content #block-easy-breadcrumb-easy-breadcrumb .easy-breadcrumb span.easy-breadcrumb_segment{
 	background-color: #C5C5C5;
 }
+/*************/
 
-
+/* GENERAL */
 .main h1#page-title{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 33px;
@@ -302,6 +314,12 @@
 	color: #BE242A;
 	margin-top: 0px;
 }
+.node-type-servicio h1,
+.page-node-24 h1{
+	padding-bottom: 10px;
+	border-bottom: 1px solid #BE242A;
+}
+
 
 .main h2{
 	font-family: 'Open Sans', sans-serif;
@@ -314,14 +332,22 @@
 
 }
 
-.main p{
+.main p,
+.main ul li{
 	color: #333333;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 12px;
 	font-weight: normal;	
 
 }
+.main ul{
+	padding-left: 30px;
+}
 
+/*********************/
+
+
+/* SIDEBAR */
 
 .view-bloques-sidebar .views-row{
 	position: relative;
@@ -408,13 +434,16 @@
 	font-weight: 300;
 	text-transform: uppercase;
 	color: #FFF;
-	text-align: center;
+	text-align: left;
 }
 .view-bloques-sidebar.view-display-id-block_1 .views-row .bloque-sidebar-interno .bloque-sidebar-titulo a p{
 	margin: 0px;
 	line-height: 38px;
 }
 
+
+
+/* SERVICIOS */
 
 .view-servicios .views-row{
 	width: 315px;
@@ -435,6 +464,7 @@
 	color: #414042;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 23px;
+	line-height: 25px;
 	font-weight: 300;
 	text-transform: uppercase;	
 }
@@ -477,13 +507,124 @@
 	transform: translateX(5px);
 }
 
+.field-name-field-beneficios .field-label{
+	color: #414042;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 20px 0px;
+}
+
+.field-name-campo-solicite-informacion{
+	width: 100%;
+	clear: both;
+	margin-top: 50px;
+}
+.solicite-informacion-field{
+	width: 100%;
+	clear: both;
+	border-bottom: 1px solid #BE242A;
+}
+.solicite-informacion-field .solicite-info-boton{
+	background-color: #FFF;
+	padding-left: 20px;
+	float: right;
+}
+
+.solicite-informacion-field .solicite-info-boton a{
+	display: block;
+	height: 31px;
+	float: right;
+	margin-top: -30px;
+	padding: 0px 15px;
+	background-color: #BE242A;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+	color: #FFF;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 31px;
+	border-radius: 25px;
+	-webkit-transition: all 500ms ease;
+	transition: all 500ms ease; 
+}
+.solicite-informacion-field .solicite-info-boton a:hover{
+	background-color: #d83439;
+	transform: translateX(5px);	
+}
 
 
 
 
+/***************/
+
+
+/* DOCUMENTOS */
+
+.view-documentos{
+
+}
+.view-documentos .views-row{
+	clear: both;
+	margin-bottom: 50px;
+}
+.view-documentos .views-row .views-field-title a{
+	color: #414042;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 19px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 20px 0px;
+}
+.view-documentos .views-row .views-field-body{
+	
+}
+.view-documentos .views-row .views-field-field-documento .descargar-archivo{
+	width: 100%;
+	clear: both;
+	border-bottom: 1px solid #6D6E71;
+	margin-top: 25px;
+}
+.view-documentos .views-row .views-field-field-documento .descargar-archivo-boton{
+	background-color: #FFF;
+	padding-left: 20px;
+	float: right;	
+}
+.view-documentos .views-row .views-field-field-documento .descargar-archivo-boton a{
+	display: block;
+	height: 31px;
+	float: right;
+	margin-top: -25px;
+	padding: 0px 15px;
+	background-color: #6D6E71;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+	color: #FFF;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 31px;
+	border-radius: 25px;
+	padding-left: 20px;
+	padding-right: 30px;
+	background-image: url('../images/icon_descargar.png');
+	background-repeat: no-repeat;
+	background-position: 90% 50%;
+	-webkit-transition: all 500ms ease;
+	transition: all 500ms ease; 	
+}
+.view-documentos .views-row .views-field-field-documento .descargar-archivo-boton a:hover{
+	background-position: 90% 300%;
+
+}
+
+/**************/
 
 
 
+/* CINTILLO ROJO FOOTER*/
 
 .below-content.cintillo-rojo{
 	width: 100%;
@@ -492,7 +633,6 @@
 	margin-top: 50px;
 	display: table;
 }
-
 .below-content.cintillo-rojo .cintillo-izq{
 	width: 80%;
 	padding-right: 90px;
@@ -515,8 +655,6 @@
 	color: #FFF;
 	margin-top: 10px;
 }
-
-
 .below-content.cintillo-rojo .cintillo-der{
 	width: 20%;
 	display: table-cell;
@@ -546,7 +684,10 @@
 	color: #BA272D;
 	background-position: 110% 50%;
 }
+/**************/
 
+
+/* FOOTER */
 
 .footer{
 	width: 100%;
@@ -554,7 +695,6 @@
 	background-color: #333333;
 	padding-top: 40px;
 }
-
 .footer h2{
 	color: #FFFFFF;
 	font-family: 'Open Sans', sans-serif;
@@ -562,7 +702,6 @@
 	font-weight: 600;
 	margin-top:  0px;
 }
-
 .footer .block{
 	display: inline-block;
 	min-height: 400px;
@@ -572,9 +711,6 @@
 .footer .block a{
 	color: #ACACAC;
 }
-
-
-
 .footer #block-menu-block-2{
 	width:  25%;
 }
@@ -592,8 +728,6 @@
 .footer #block-menu-block-2 .menu li a:hover{
 	color: #BE242A;
 }
-
-
 .footer #block-views-distribuidores-block{
 	width:  55%;
 }
@@ -608,8 +742,6 @@
 	float: left;
 
 }
-
-
 .footer #block-block-2{
 	width:  20%;
 }
@@ -622,7 +754,6 @@
 .footer #block-block-2 p br{
 	line-height: 36px;
 }
-
 .footer #block-block-2 a.fb_footer{
 	display: block;
 	width: 35px;
@@ -656,3 +787,4 @@
 .footer #block-block-2 a.yt_footer:hover{
 	transform: translateY(-5px);
 }
+/********************/
