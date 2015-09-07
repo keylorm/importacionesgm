@@ -235,6 +235,123 @@
 }
 
 
+.view-bloques-sidebar .views-row{
+	position: relative;
+	overflow: hidden;
+	width: 348px;
+	height: 232px;
+	margin-bottom: 20px;
+}
+.view-bloques-sidebar .views-row{
+
+}
+.view-bloques-sidebar .views-row .bloque-sidebar-home{
+	position: absolute;
+	display: table-row;
+	vertical-align: middle;
+	bottom: 0px;
+	width: 100%;
+	height: 100px;
+	background-image: url('../images/bg_black.png');
+	padding: 20px;
+}
+
+.view-bloques-sidebar .views-row .bloque-sidebar-home a{
+	display: block;
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 32px;
+
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #FFF;
+	background-image: url('../images/next_slider.png');
+	background-repeat: no-repeat;
+	background-size: 34px;
+	background-position: 95% 50%;
+
+}
+.view-bloques-sidebar .views-row .bloque-sidebar-home a p{
+	display: table-cell;
+	vertical-align: middle;	
+	margin: 0px;
+	line-height: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.below-content.cintillo-rojo{
+	width: 100%;
+	height: 170px;
+	background-color: #BA272D;
+	margin-top: 50px;
+}
+
+.below-content.cintillo-rojo .cintillo-izq{
+	width: 80%;
+	padding-right: 90px;
+	padding-top: 40px;
+	float: left;
+}
+.below-content.cintillo-rojo .cintillo-izq .ctitulo1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #FFF;	
+}
+.below-content.cintillo-rojo .cintillo-izq .ctitulo2{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 17px;
+	font-weight: 400;
+	color: #FFF;
+	margin-top: 10px;
+}
+
+
+.below-content.cintillo-rojo .cintillo-der{
+	width: 20%;
+	float: left;
+	padding-top: 50px;
+}
+.below-content.cintillo-rojo .cintillo-der a{
+	display: block;
+	width: 210px;
+	height: 65px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 21px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 65px;
+	text-transform: uppercase;
+	color: #FFF;
+	border: 1px solid #FFF;
+	border-radius: 40px;
+	float: right;
+	background-image: url('../images/icon_vermas.png');
+	background-repeat: no-repeat;
+	background-position: 92% 50%;
+	-webkit-transition: all 500ms ease;
+	transition: all 500ms ease; 		
+}
+.below-content.cintillo-rojo .cintillo-der a:hover{
+	background-color: #FFF;
+	color: #BA272D;
+	background-position: 110% 50%;
+}
+
+
 .footer{
 	width: 100%;
 	height: 455px;

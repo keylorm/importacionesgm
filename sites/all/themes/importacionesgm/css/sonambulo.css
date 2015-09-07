@@ -26,21 +26,21 @@ body {
   overflow: hidden;
 }
 
-.one-sidebar .main {
-  width: 60%;
+body .main {
+  width: 62%;
   padding: 0 0.875em;
 }
-.one-sidebar #sidebar-first {
-  width: 40%;
+body #sidebar-second {
+  width: 38%;
   padding: 0 0.875em;
 }
-.sidebar-first .main {
+body .main {
   float: left;
 }
-.sidebar-first #sidebar-first {
+body #sidebar-second {
   float: right;
 }
 
-.main .title {
+/*.main .title {
   width: 1000px;
-}
+}*/
