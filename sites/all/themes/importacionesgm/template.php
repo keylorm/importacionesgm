@@ -127,3 +127,8 @@ function importacionesgm_preprocess_block(&$vars, $hook) {
   // Add a striping class.
   $vars['classes_array'][] = 'block-' . $vars['zebra'];
 }
+
+
+function importacionesgm_form_alter(&$form, &$form_state, $form_id) {
+  
+}
