@@ -261,7 +261,8 @@
 	text-transform: uppercase;
 	color: #FFF;
 	line-height: 25px;
-	margin: 0px;	
+	margin: 0px;
+	letter-spacing: 1px;	
 }
 .view-imagen-top .views-row .views-field-field-imagen-logo{
 	position: absolute;
@@ -320,7 +321,9 @@
 	border-bottom: 1px solid #BE242A;
 }
 
-
+body{
+	background-color: #EBEBEB;
+}
 .main h2{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 24px;
@@ -343,6 +346,46 @@
 .main ul{
 	padding-left: 30px;
 }
+
+
+
+
+#block-views-productos-taxonom-a-block-1 .view-header h2{
+	color: #BE242A;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;	
+	padding-bottom: 0px;
+}
+
+
+#block-views-productos-taxonom-a-block-1 .view-content{
+	clear: both;
+	overflow: hidden;
+	margin-bottom: 60px;
+}
+#block-views-productos-taxonom-a-block-1 .view-content .views-row{
+	width: 175px;
+	float: left;
+	margin-right: 23px;
+}
+#block-views-productos-taxonom-a-block-1 .view-content .views-row .views-field-name a{
+	display: block;
+	color: #4D4D4D;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 10px 0 10px 0px;	
+}
+#block-views-productos-taxonom-a-block-1 .view-content .views-row .views-field-description p{
+	line-height: 19px;
+}
+#block-views-productos-taxonom-a-block-1 .view-content .views-row.views-row-last{
+	margin-right: 0px;
+}
+
+
+
 
 /*********************/
 
@@ -521,17 +564,20 @@
 	clear: both;
 	margin-top: 50px;
 }
+#block-views-productos-taxonom-a-block-1 .view-footer,
 .solicite-informacion-field{
 	width: 100%;
 	clear: both;
 	border-bottom: 1px solid #BE242A;
 }
+#block-views-productos-taxonom-a-block-1 .view-footer .ver-todos-productos-home,
 .solicite-informacion-field .solicite-info-boton{
-	background-color: #FFF;
+	background-color: #EBEBEB;
 	padding-left: 20px;
 	float: right;
 }
 
+#block-views-productos-taxonom-a-block-1 .view-footer .ver-todos-productos-home a,
 .solicite-informacion-field .solicite-info-boton a{
 	display: block;
 	height: 31px;
@@ -550,13 +596,11 @@
 	-webkit-transition: all 500ms ease;
 	transition: all 500ms ease; 
 }
+#block-views-productos-taxonom-a-block-1 .view-footer .ver-todos-productos-home a:hover,
 .solicite-informacion-field .solicite-info-boton a:hover{
 	background-color: #d83439;
 	transform: translateX(5px);	
 }
-
-
-
 
 /***************/
 
@@ -588,7 +632,7 @@
 	margin-top: 25px;
 }
 .view-documentos .views-row .views-field-field-documento .descargar-archivo-boton{
-	background-color: #FFF;
+	background-color: #EBEBEB;
 	padding-left: 20px;
 	float: right;	
 }
@@ -623,6 +667,93 @@
 /**************/
 
 
+/* REPUESTOS */
+
+.view-content.ui-accordion{
+	margin-bottom: 100px;
+}
+
+.view-content.ui-accordion h3{
+	
+	border-radius: 0px;
+	border: none;
+	background: none;
+
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;		
+	color: #414042;
+	border-bottom: 1px solid #BE242A;
+	margin-bottom: 10px;
+
+	background-image: url('../images/acodeon_off.png');
+	background-repeat: no-repeat;
+	background-position: 100% 50%;
+	
+	-webkit-transition: all 500ms ease;
+	transition: all 500ms ease;	
+}
+
+.view-content.ui-accordion h3:hover,
+.view-content.ui-accordion h3.ui-state-active{
+	background-image: url('../images/acodeon_on.png');
+}
+.view-content.ui-accordion h3.ui-state-active a,
+.view-content.ui-accordion h3:hover a{
+	color: #BE242A;
+}
+
+.view-content.ui-accordion h3 .ui-icon{
+	display: none;
+}
+.view-content.ui-accordion h3 a{
+	padding-left: 0px;
+	padding-bottom: 7px;
+	-webkit-transition: all 500ms ease;
+	transition: all 500ms ease;	
+}
+
+
+.view-content.ui-accordion .ui-accordion-content{
+	background: none;
+	border: none;
+	border-radius: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+
+}
+
+.view-content.ui-accordion .ui-accordion-content .views-row .views-field-view{
+	width: 71%;
+	padding-right: 50px;
+	float: left;
+}
+.view-content.ui-accordion .ui-accordion-content .views-row .views-field-view .view-productos .views-row{
+	border-bottom: 1px solid #CACCCD;
+	padding-bottom: 2px;
+	margin-bottom: 7px;
+}
+.view-content.ui-accordion .ui-accordion-content .views-row .views-field-view .view-productos .views-row span{
+	color: #414042;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;	
+}
+.view-content.ui-accordion .ui-accordion-content .views-row .views-field-field-imagenes-cat-repuestos{
+	width: 29%;
+	float: left;
+}
+.view-content.ui-accordion .ui-accordion-content .views-row .views-field-field-imagenes-cat-repuestos img{
+	float: right;
+	margin: 0px 0px 15px 15px;
+}
+.view-content.ui-accordion .ui-accordion-content .views-row .views-field-field-imagenes-cat-repuestos img:nth-child(2n){
+	margin-left: 0px;
+}
+
+/*************/
 
 /* CINTILLO ROJO FOOTER*/
 
