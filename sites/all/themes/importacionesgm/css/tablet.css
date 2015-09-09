@@ -1,12 +1,110 @@
 /* CSS Document */
 @media only screen and (max-width : 1000px) {
+	.grid-1000, .main-content{
+		width: 100%;
+		padding: 0 2%;
+	}
 
+	.menu-slider .menu-region .menu li a{
+		padding: 0 4px;
+	}
+
+	.flex-caption .caption .caption-text{
+		font-size: 28px;
+		line-height: 30px;
+	}
+
+	.flex-caption .caption{
+		height: 205px;
+	}
+
+	.flex-caption{
+		top: 24%;
+	}
+
+	.flex-direction-nav{
+		width: 98%;
+	}
 
 
 }
 
 @media only screen and (max-width : 800px) {
+	.flex-caption {
+	    top: 24%;
+	    width: 80%;
+	}
 
+	.flex-caption .caption .caption-text{
+		font-size: 24px;
+		line-height: 26px;
+	}
 
+	.flex-caption .caption .caption-link a{
+		width: 170px;
+	    height: 30px;
+	    line-height: 30px;
+	}
+
+	.flex-caption .caption{
+		height: 160px;
+	}
+
+	.tinynav{
+		
+	    background-color: transparent;
+	    border: none;
+	    color: #fff;
+	    text-transform: uppercase;
+	    background-image: url(../images/menu-movil-bg.png);
+	    background-position: right center;
+	    background-repeat: no-repeat;
+	    width: 112%;
+	    line-height: 34px;
+	    height: 100%;
+	    z-index: 0;
+	    background-color: #4D4D4D;
+	    background-image: url(../images/menu-movil-bg.png);
+	    background-position: 516px center;
+	    background-repeat: no-repeat;
+	    border-radius: 2px;
+	}
+
+	.tinynav-wrapper{
+		max-width: 550px;
+	    width: 100%;
+	    margin: 5px auto;
+	    height: 34px;	    
+	    overflow: hidden;
+	    
+	    z-index: 1;
+
+	}
+
+	.menu-slider .menu-region{
+		top: -1px;
+		background-color: #000;
+	}
+
+	.header #logo {
+	    float: none;
+	    -webkit-transition: all 500ms ease;
+	    transition: all 500ms ease;
+	    width: 300px;
+	    margin: 15px auto;
+	    display: block;
+	    height: 70px;
+	}
+
+	.header #block-block-1 {
+	    float: none;
+	    width: 300px;
+	    margin: 0 auto;
+	}
+
+	.header{
+		height: auto;
+		padding: 10px 0;
+	}
 
 }

@@ -28,17 +28,18 @@ body {
 
 body .main {
   width: 60%;
-  padding: 0 0.875em;
+  padding: 0 0.875em 0 0;
+  float: left;
 }
 body.no-sidebars .main{
   width: 100%;
 }
 body #sidebar-second {
-  width: 38%;
-  padding: 0 0.875em;
+  width: 36%;
+  padding: 0 0 0 0.875em;
 }
 body .main {
-  float: left;
+  
 }
 body #sidebar-second {
   float: right;
