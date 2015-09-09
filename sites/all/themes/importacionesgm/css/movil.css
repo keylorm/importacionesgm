@@ -1,6 +1,16 @@
 /* CSS Document */
 @media only screen and (max-width : 640px) {
 
+#block-views-servicios-block{
+	width: 100%;
+}
+.view-servicios .views-row{
+	width: 280px;
+	margin: 0 auto !important;
+	clear: both;
+	float: none;
+	margin-bottom: 25px !important;
+}
 #block-views-productos-taxonom-a-block-1 .view-content .views-row{
 	width: 280px;
 	margin: 0 auto;

@@ -1,6 +1,17 @@
 /* CSS Document */
 @media only screen and (max-width : 1000px) {
 
+#block-views-servicios-block{
+	width: 650px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.view-servicios .views-row:nth-child(2n){
+	margin-right: 0px;
+}
+.view-servicios .views-row:nth-child(3n){
+	margin-right: 20px;
+}
 .view-imagen-top .views-row .views-field-field-imagen-top{
 	height: auto;
 	
@@ -12,6 +23,7 @@
 
 body .main{
 	width: 60%;
+	padding: 0px;
 }
 body #sidebar-second{
 	width: 40%;
@@ -73,6 +85,18 @@ body #sidebar-second{
 
 @media only screen and (max-width : 800px) {
 
+#block-views-servicios-block{
+	width: 621px;
+}
+.view-servicios .views-row{
+	width: 300px;
+}
+.view-servicios .views-row .views-field-field-imagen-logo{
+	width: 100%;
+}
+.view-servicios .views-row .views-field-field-image img{
+	width: 100%;
+}
 .menu-slider .menu-region{
 	position: static;
 }
