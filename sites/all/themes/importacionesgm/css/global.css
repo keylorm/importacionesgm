@@ -1123,3 +1123,8 @@ body{
 .webform-client-form .form-actions{
 	margin: 0;
 }
+
+.menu-slider .menu-region .menu li.menu-mlid-218,
+.footer #block-menu-block-2 .menu li.menu-mlid-218{
+	display: none;
+}
