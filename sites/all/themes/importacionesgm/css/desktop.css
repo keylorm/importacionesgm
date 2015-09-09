@@ -5,4 +5,12 @@
 	padding: 0px 4px;
 }
 
+.view-imagen-top .views-row .views-field-field-imagen-top {
+    height: auto;
+}
+
+.view-imagen-top .views-row .views-field-field-frase-superior {
+    margin-top: -4px;
+}
+
 }

@@ -1044,6 +1044,7 @@ body{
 .webform-client-form fieldset.captcha{
 	padding: 0;
 	border: none;
+	margin-top: 20px;
 }
 
 .webform-client-form fieldset.captcha legend{

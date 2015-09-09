@@ -3,8 +3,13 @@
 
 .view-imagen-top .views-row .views-field-field-imagen-top{
 	height: auto;
-	margin-bottom: 15px;
+	
 }	
+
+.view-id-imagen_top {
+	margin-bottom: 40px;
+}
+
 body .main{
 	width: 60%;
 }
@@ -55,6 +60,14 @@ body #sidebar-second{
 		right: 0;
 	}
 
+	.view-imagen-top .views-row .views-field-field-frase-superior{
+		    margin-top: -4px;
+	}
+
+	.view-imagen-top .views-row .views-field-field-frase-superior .field-content{
+		width: 96%;
+	}
+
 
 }
 
@@ -90,6 +103,8 @@ body #sidebar-second{
 body #sidebar-second,
 body .main{
 	width: 100%;
+
+	padding-right: 0;
 }
 body .main{
 	clear: both;
@@ -192,6 +207,10 @@ body #sidebar-second{
 
 	.footer #block-block-2{
 		width: 25%;
+	}
+
+	.view-imagen-top .views-row .views-field-field-frase-superior .field-content p{
+		font-size: 18px;
 	}
 
 }

@@ -51,7 +51,7 @@
 	.tinynav-wrapper{
 		max-width: 300px;
 	    width: 100%;
-	    margin: 5px auto;
+	    margin: 5px auto 16px;
 	    height: 34px;	    
 	    overflow: hidden;
 	    
@@ -148,6 +148,31 @@
 	    display: inline-block !important;
 	}
 
+	.footer #block-menu-block-2 .menu li a,
+	.footer #block-block-2 p{
+		font-size: 16px;
+	}
+
+	.webform-client-form .webform-component-file .description{
+		    float: left;
+    clear: both;
+    margin: 15px 0;
+	}
+
+
+	.webform-client-form .webform-component-file input[type="submit"]{
+		float: left;
+		margin: 10px 0 0;
+	}
+
+	.webform-client-form label{
+		clear: both;
+	}
+
+	.view-imagen-top .views-row .views-field-field-frase-superior .field-content p{
+		font-size: 16px;
+	}
+
 	
 }
 
@@ -197,5 +222,14 @@ body #sidebar-second{
 .view-bloques-sidebar .views-row .bloque-sidebar-home a{
 	font-size: 25px;
 }
+
+.view-imagen-top .views-row .views-field-field-frase-superior .field-content p{
+		font-size: 14px;
+		line-height: 17px;
+	}
+
+	.view-imagen-top .views-row .views-field-field-frase-superior .field-content{
+		padding: 10px 0;
+	}
 
 }
