@@ -1,5 +1,13 @@
 /* CSS Document */
 @media only screen and (max-width : 640px) {
+
+#block-views-productos-taxonom-a-block-1 .view-content .views-row{
+	width: 280px;
+	margin: 0 auto;
+	margin-right: 0%;
+}
+
+
 	.header #logo {
 	    float: none;
 	    -webkit-transition: all 500ms ease;
@@ -150,6 +158,44 @@
 	}
 
 
-
+.view-bloques-sidebar.view-display-id-block_1 .views-row .bloque-sidebar-interno .bloque-sidebar-titulo a{
+	font-size: 24px;
+}
+.view-bloques-sidebar.view-display-id-block_1 .views-row .bloque-sidebar-interno .bloque-sidebar-titulo a p{
+	line-height: 26px;
+}
+.main h1#page-title{
+	font-size: 26px;
+}
+.main h2{
+	font-size: 20px;
+}
+.below-content.cintillo-rojo .cintillo-izq .ctitulo2{
+	font-size: 15px;
+	line-height: 17px;
+}
+.below-content.cintillo-rojo .cintillo-izq .ctitulo1{
+	font-size: 20px;
+	line-height: 24px;
+}
+#block-views-productos-taxonom-a-block-1 .view-header h2{
+	line-height: 25px;
+}
+.below-content.cintillo-rojo{
+	margin-top: 0px;
+}
+body #sidebar-second{
+	width: 100%;
+}
+.view-bloques-sidebar .views-row{
+	width: 100%;
+	height: auto;
+}
+.view-bloques-sidebar .views-row .views-field-field-image img{
+	width: 100%;
+}
+.view-bloques-sidebar .views-row .bloque-sidebar-home a{
+	font-size: 25px;
+}
 
 }

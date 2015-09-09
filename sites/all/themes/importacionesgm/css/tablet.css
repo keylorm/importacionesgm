@@ -1,12 +1,33 @@
 /* CSS Document */
 @media only screen and (max-width : 1000px) {
+
+.view-imagen-top .views-row .views-field-field-imagen-top{
+	height: auto;
+	margin-bottom: 15px;
+}	
+body .main{
+	width: 60%;
+}
+body #sidebar-second{
+	width: 40%;
+}
+#block-views-productos-taxonom-a-block-1 .view-content .views-row{
+	width: 45%;
+	margin-right: 5%;
+}
+#block-views-productos-taxonom-a-block-1 .view-content .views-row:nth-child(2n){
+	margin-right: 0%;
+}
+
 	.grid-1000, .main-content{
 		width: 100%;
 		padding: 0 2%;
 	}
-
+	.menu-slider .menu-region .menu li{
+		margin-right: 9px;
+	}
 	.menu-slider .menu-region .menu li a{
-		padding: 0 4px;
+		padding: 0px;
 	}
 
 	.flex-caption .caption .caption-text{
@@ -38,6 +59,50 @@
 }
 
 @media only screen and (max-width : 800px) {
+
+.menu-slider .menu-region{
+	position: static;
+}
+.above-content{
+	display: none;
+}
+.below-content.cintillo-rojo{
+	padding-bottom: 30px;
+}
+.below-content.cintillo-rojo .cintillo-izq,
+.below-content.cintillo-rojo .cintillo-der{
+	display: block;
+	width: 100%;
+	padding-right: 0px;
+	text-align: center;
+}
+.below-content.cintillo-rojo .cintillo-der a{
+	margin: 0 auto;
+}
+#block-views-productos-taxonom-a-block-1 .view-content{
+	text-align: center;
+}
+#block-views-productos-taxonom-a-block-1 .view-content .views-row{
+	float: none;
+	display: inline-block;
+}	
+
+body #sidebar-second,
+body .main{
+	width: 100%;
+}
+body .main{
+	clear: both;
+	float: none;
+}
+body #sidebar-second{
+	width: 350px;
+	padding: 0px;
+	margin: 0 auto;
+	float: none;
+	margin-top: 50px;
+}
+
 	.flex-caption {
 	    top: 24%;
 	    width: 80%;
