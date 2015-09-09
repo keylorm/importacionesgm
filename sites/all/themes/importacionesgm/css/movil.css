@@ -101,15 +101,6 @@
 		padding-top: 20px;
 	}
 
-	
-}
-
-@media only screen and (max-width : 400px) {
-	.flex-caption .caption .caption-text {
-	    font-size: 16px;
-	    line-height: 18px;
-	}
-
 	.footer #block-menu-block-2 {
 	    width: 90%;
 	    text-align: center;
@@ -141,6 +132,24 @@
 		padding-bottom: 60px;
 		height: auto;
 	}
+
+	.footer .block a {
+	    color: #ACACAC;
+	    float: none !important;
+	    margin: 0 auto !important;
+	    display: inline-block !important;
+	}
+
+	
+}
+
+@media only screen and (max-width : 400px) {
+	.flex-caption .caption .caption-text {
+	    font-size: 16px;
+	    line-height: 18px;
+	}
+
+
 
 
 }
