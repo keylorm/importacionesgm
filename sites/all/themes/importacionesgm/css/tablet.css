@@ -16,6 +16,8 @@
 
 	.flex-caption .caption{
 		height: 205px;
+		margin: 0 auto;
+		text-align: center;
 	}
 
 	.flex-caption{
@@ -24,6 +26,12 @@
 
 	.flex-direction-nav{
 		width: 98%;
+	}
+
+	.flex-caption .caption .caption-link a{
+		margin: 0 auto;
+		left: 0;
+		right: 0;
 	}
 
 
@@ -105,6 +113,20 @@
 	.header{
 		height: auto;
 		padding: 10px 0;
+	}
+
+	.footer #block-views-distribuidores-block .view-distribuidores .views-row{
+		margin-right: 10px;
+		margin-bottom: 10px;
+		width: 86px;
+	}
+
+	.footer #block-views-distribuidores-block{
+		width: 50%;
+	}
+
+	.footer #block-block-2{
+		width: 25%;
 	}
 
 }
